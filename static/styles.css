@@ -1,0 +1,15 @@
+body {
+  background-image: background-image: url("https://i.pinimg.com/564x/a5/5c/94/a55c94e8931e63f96afb6eb934bbbe73.jpg");
+   background-size: cover;
+  background-repeat: no-repeat;
+
+  color: #5a1648;
+  text-align: center;
+
+  font-family: "Saira Extra Condensed";
+  font-size: 30px;  
+}
+
+img {
+  width: 30%;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="static/styles.css"> 
+  
+  <title>SaveTheWorld</title>
+</head>
+<body>
+<h3>The list of suspicious people we have detected in the CCTV:</h3>
+{% for criminal in criminals %}
+  Name: {{ criminal[1] }}, Age: {{ criminal[2] }}, Address: {{ criminal[3] }} 
+  <br>
+{% endfor %}
+<a href={{ url_for('upload') }}>Check sus</a>
+</body>
+</html>
